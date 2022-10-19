@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        .box{
+            position: relative;
+            
+            width: 700px;
+            height: 400px;
+            background-color: rgb(218, 218, 218);
+            border: 3px solid black;
+            margin: 5% auto;
+        }
+        .ball{
+            position: absolute;
+             
+            width: 60px; 
+            height: 60px;
+            background-color: green;
+            border-radius: 50%;
+        }
+    </style>
+
+</head>
+<body>
+    
+
+    <input id="boxWidth" type="number" value="700">
+    <input id="boxHeight" type="number" value="400">
+    <input type="color" id="boxColor">
+    <input id="ballWidthAndHeight" type="number" value="60">
+    <input type="color" id="ballColor">
+    <input type="number" id="step" value="10">
+    <button id="save">Save</button>
+    <button id="reset">Reset</button>
+    <div class="box">
+        <div class="ball">
+
+        </div>
+    </div>
+
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
